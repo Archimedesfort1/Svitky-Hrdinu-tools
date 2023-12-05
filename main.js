@@ -7,7 +7,7 @@ function createTool() {
     id: '${ID}/tool',
     icons: [
       {
-        icon: "/public/stit.png",
+        icon: "/stit.png",
         label: "Převaha",
       },
     ],
@@ -23,7 +23,7 @@ function createMode() {
     id: '${ID}/mode',
     icon: [
       {
-        icon: "/public/prevaha.svg",
+        icon: "/prevaha.svg",
         label: "Jste v převaze!",
         filter: {
             activeTools: ["${ID}/Prevaha"],
